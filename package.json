@@ -1,0 +1,1 @@
+{"description":"Proxy gratuito que reenvía las APIs de Urbani 3.0.5 a los servidores reales de Urbani. No inventa saldo ni datos.","engines":{"node":">=18"},"main":"server.js","name":"urbani-proxy","scripts":{"start":"node server.js"},"version":"1.0.0"}

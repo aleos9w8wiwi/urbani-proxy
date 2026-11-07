@@ -1,0 +1,33 @@
+Valores nuevos para el .env de la APK 3.0.5
+==============================================
+Primero despliega el servidor y copia tu URL.
+Ejemplo: https://urbani-proxy-xxxx.onrender.com
+Reemplaza TU-SERVIDOR por esa URL en las líneas de abajo.
+
+API_MIGRATION=https://TU-SERVIDOR/migration
+API_GETS=https://TU-SERVIDOR/gets
+API_COUPON=https://TU-SERVIDOR/coupon
+API_SEGMENTED=https://TU-SERVIDOR/segmented
+API_STATIC=https://TU-SERVIDOR/static
+API_EVENTS=https://TU-SERVIDOR/events
+
+Los demás valores se restauran directo a Urbani real
+(no pasan por tu servidor):
+API_AUTH=https://auth-prod.urbani.io
+API_PAYMENTS=https://api-payment.urbani.io
+API_MEDIA_MANAGER=http://media-manager-prod.urbani.io
+API_Maps=https://urb-gps-prod.urbiaccess.io
+API_kmz_Stops=https://urb-gps-prod.urbiaccess.io/app/kmz
+API_kmz_Routes=https://urb-gps-prod.urbiaccess.io/app/kmz/line
+API_kmz_Close_Routes=https://urb-gps-prod.urbiaccess.io/app/aprox/branch
+API_Radius_Routes=https://urb-gps-prod.urbiaccess.io/app/g/radius
+API_MMC=https://back.appmemuevo.io
+API_STP=https://stp-app.urbani.io
+API_SURVEY=https://epayments-prod.urbani.io
+API_CONEKTA=https://api.conekta.io
+API_LIVENESS=https://auth-prod.urbani.io
+API_ELASTIC=https://app.urbani.io
+RUTAEXPRESS_UNLIMITED=https://static-prod.urbani.io
+
+Nota: este servidor solo reenvía a Urbani real.
+No crea saldo, no inventa cupones ni viajes.
